@@ -5,7 +5,6 @@ import config
 from utils import setup_logger
 import loggers as lg
 
-
 class Node():
 
     def __init__(self, state):

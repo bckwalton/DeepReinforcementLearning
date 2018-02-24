@@ -22,6 +22,9 @@ from settings import run_folder, run_archive_folder
 import initialise
 import pickle
 
+import os
+os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
+
 lg.logger_main.info('=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*')
 lg.logger_main.info('=*=*=*=*=*=.      NEW LOG      =*=*=*=*=*')
 lg.logger_main.info('=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*')
