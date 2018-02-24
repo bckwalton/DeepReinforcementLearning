@@ -83,7 +83,7 @@ best_player = Agent('best_player', env.state_size,
 #user_player = User('player1', env.state_size, env.action_size)
 iteration = 0
 
-while 1:
+while (iteration <= 100):
 
     iteration += 1
     reload(lg)
