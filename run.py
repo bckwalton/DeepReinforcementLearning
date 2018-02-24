@@ -17,6 +17,7 @@ from model import Residual_CNN
 from funcs import playMatches, playMatchesBetweenVersions
 
 import loggers as lg
+from importlib import reload
 
 from settings import run_folder, run_archive_folder
 import initialise
