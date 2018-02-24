@@ -111,3 +111,7 @@ games/archive/
 *.ipynb
 run.ipynb
 *.ipynb
+*.log
+*.pyc
+*.pyc
+*.ipynb
